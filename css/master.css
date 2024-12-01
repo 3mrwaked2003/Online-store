@@ -1,0 +1,40 @@
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.nn{
+    display: flex;
+    justify-content: space-between;
+}
+#content{
+    width: 100%;
+}
+#showprise{
+    width: 100%;
+}
+.sho{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.666);
+    color: white;
+    border: none;
+    transition: 0.5s ease;
+}
+.sho:hover{
+    background-color: black;
+}
+.di{
+    color: black;
+    background-color: aqua;
+}
